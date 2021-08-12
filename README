@@ -1,0 +1,18 @@
+Para compilar o programa de BFS e DFS, precisa-se inserir o comando:
+	- python3 busca.py
+O programa do busca.py lê o arquivo labirinto.txt, onde se encontra a matriz que representa o labirinto. 
+A matriz pode ser modificada tanto diretamente pelo arquivo labirinto.txt quanto pelo programa labirinto.py.
+O labirinto.py gera uma matriz aleatória, tomando todas os cuidados para que tenha um caminho válido. 
+Para compilar o programa que gera a matriz utilize o comando:
+	- python3 labirinto.py
+	
+Após compilar o programa da busca a saída é mostrada no terminal de comando e representada por uma matriz e vetores.
+Na matriz cada caractere representa um elemento do labirinto:
+
+	o = caminho percorrido
+	□ = paredes
+	# = local de saída
+	X = local de chegada
+	
+E os elementos do vetor representam as casas da matriz, onde tem-se a formula:
+	Elemento = linha*10 + coluna
